@@ -4,13 +4,15 @@ import './App.css';
 //components
 import InputTodo from "./components/InputTodo";
 import ListTodos from "./components/ListTodos";
+import Home from "./components/Home";
 
 function App() {
   return (
    <Fragment>
     <div className="container">
-      <InputTodo/>
-      <ListTodos/>
+      {/* <InputTodo/>
+      <ListTodos/> */}
+      <Home/>
     </div>
    </Fragment> 
   );
